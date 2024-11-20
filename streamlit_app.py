@@ -18,9 +18,6 @@ st.write(
 # Input teks dari pengguna
 user_input = st.text_area("Masukkan teks untuk analisis sentimen:")
 
-# Membersihkan teks
-clean_input = clean_text(user_input)
-
 # Menampilkan hasil prediksi
 # Naive Bayes
 st.subheader("1. Naive Bayes")
